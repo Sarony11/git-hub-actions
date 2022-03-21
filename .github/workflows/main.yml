@@ -2,7 +2,7 @@ on: push
 name: deploy on push
 jobs:
   deploy:
-  name: deploy to cluster
+  name: deploy
   runs-on: ubuntu-lastes
   steps:
   - uses: actions/checkout@master
